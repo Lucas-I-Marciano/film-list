@@ -1,0 +1,82 @@
+/* I can set variables for each color */
+:root {
+  --primary-color: #588157;
+  --light-primary: #a3b18a;
+  --lightest-color: #dad7cd;
+  --secondary-color: #344e41;
+  --light-secondary: #3a5a40;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  /* rem adjust for the font-size */
+  padding: 1.5rem 1rem;
+  background-color: var(--primary-color);
+  color: var(--lightest-color);
+}
+
+#searchContainer {
+  display: flex;
+  /* Aligning at the center of the container */
+  align-items: center;
+  width: 50%;
+}
+
+header > h2 > i {
+  margin-right: 0.5rem;
+}
+
+.movie-name-wrapper {
+  width: 65%;
+  display: flex;
+  /* I like the elements aligned at the  middle of the father element*/
+  align-items: center;
+}
+
+.movie-year-wrapper {
+  width: 30%;
+  display: flex;
+  align-items: center;
+}
+
+.movie-year-wrapper > input {
+  max-width: 3rem;
+}
+
+.movie-name-wrapper > input {
+  width: 100%;
+}
+
+.movie-name-wrapper > input,
+.movie-year-wrapper > input {
+  margin: 0 0.5rem;
+  border-radius: 7px;
+  padding: 0.3rem 0.2rem;
+  font-weight: bold;
+}
+
+.movie-name-wrapper > label,
+.movie-year-wrapper > label {
+  font-weight: bold;
+}
+
+#searchButton {
+  all: unset;
+  width: 5%;
+  padding: 0.3rem;
+  border: 1px solid var(--lightest-color);
+  border-radius: 10px;
+}
+
+#searchButton:focus,
+#searchButton:hover {
+  background-color: var(--light-primary);
+}
