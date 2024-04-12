@@ -1,1 +1,1 @@
-d8d0a628
+const key = "d8d0a628";

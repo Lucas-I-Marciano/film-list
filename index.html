@@ -8,6 +8,8 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
     />
     <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./modal.css" />
+    <link rel="stylesheet" href="./src/notie-master/dist/notie.min.css" />
     <title>Film List</title>
   </head>
   <body>
@@ -25,6 +27,17 @@
         <button id="searchButton"><i class="bi bi-search"></i></button>
       </section>
     </header>
-    <main></main>
+    <main>
+      <h2>Start your Film List</h2>
+      <section id="movie-list"></section>
+      <article id="modal-overlay" class="hidden">
+        <section id="modal-background"></section>
+        <section id="modal-container"></section>
+      </article>
+    </main>
+    <script src="./apiKey.js"></script>
+    <script src="./script.js"></script>
+    <script src="./modal.js"></script>
+    <script src="./src/notie-master/dist/notie.min.js"></script>
   </body>
 </html>
