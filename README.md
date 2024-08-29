@@ -59,10 +59,6 @@ This project allows users to:
 
 Contributions are welcome! Please fork this repository and submit a pull request for any improvements or bug fixes.
 
-## 📄 License
-
-This project is licensed under the MIT License.
-
 ---
 
 Feel free to customize this README.md file further to suit your project's needs. Happy coding! 🎉
