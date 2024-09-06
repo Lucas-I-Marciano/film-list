@@ -49,9 +49,11 @@ This project allows users to:
 
 ## 📋 Usage
 
-1. **Open `index.html` in your browser**.
-2. **Search for a film** by typing its name (and optionally the year).
-3. **Confirm the film details** in the modal.
+1. **Open `index.html` in your browser or just open it on [this url](https://lucas-i-marciano.github.io/film-list/)**.
+2. **Search for a film** by typing its name (and optionally the year).<br>
+   <img src="./img/searchingFilm.png" width="800" alt="Image description">
+3. **Confirm the film details** in the modal.<br>
+   <img src="./img/godfather.png" width="400" height="300" alt="Image description">
 4. **Add the film** to your list.
 5. **Refresh the page** and see that your list persists!
 
