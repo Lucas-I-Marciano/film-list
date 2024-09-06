@@ -1,6 +1,7 @@
 # 🎬 My Film List
 
-Create your own personal film list on the web by simply typing the name and, if needed, the year of the film. This project uses the OMDB API to fetch film details and allows you to manage your list with ease.
+Create your own personal film list on the web by simply typing the name and, if needed, the year of the film. This project uses the OMDB API to fetch film details and allows you to manage your list with ease.<br>
+<img src="./img/index.png" width="800" alt="Two red arrows indicating where you should put movie's name and year">
 
 ## 📜 Description
 
@@ -51,9 +52,9 @@ This project allows users to:
 
 1. **Open `index.html` in your browser or just open it on [this url](https://lucas-i-marciano.github.io/film-list/)**.
 2. **Search for a film** by typing its name (and optionally the year).<br>
-   <img src="./img/searchingFilm.png" width="800" alt="Image description">
+   <img src="./img/searchingFilm.png" width="800" alt="Two red arrows indicating where you should put movie's name and year">
 3. **Confirm the film details** in the modal.<br>
-   <img src="./img/godfather.png" width="400" height="300" alt="Image description">
+   <img src="./img/godfather.png" width="400" height="300" alt="The goodfather's post. A man looking towards with one hand up">
 4. **Add the film** to your list.
 5. **Refresh the page** and see that your list persists!
 
